@@ -1,0 +1,43 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+}
+.brand-logo{
+    margin-left: 15px;
+}
+.navbar {
+    background-color: #00897b;
+}
+.navbar a {
+    color: white;
+}
+.slider {
+    margin-bottom: 20px;
+}
+.slider img {
+    object-fit: cover;
+    height: 500px;
+}
+.container {
+    padding: 20px;
+}
+.footer {
+    background-color: #004d40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.uniform-card {
+    min-height: 250px; /* Atur tinggi minimum */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+    .uniform-card {
+        min-height: 200px;
+    }
+}
